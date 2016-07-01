@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://syriaca.org/documentation/syriaca-tei-main.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:syriaca="http://syriaca.org" xml:lang="en">
+<TEI xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:syriaca="http://syriaca.org"
+     xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -10,9 +15,12 @@
                 <funder>The National Endowment for the Humanities</funder>
                 <funder>The International Balzan Prize Foundation</funder>
                 <principal>David A. Michelson</principal>
-                <editor role="general" ref="http://syriaca.org/documentation/editors.xml#tcarlson">Thomas A. Carlson</editor>
-                <editor role="general" ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
-                <editor role="creator" ref="http://syriaca.org/documentation/editors.xml#tcarlson">Thomas A. Carlson</editor>
+                <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#tcarlson">Thomas A. Carlson</editor>
+                <editor role="general"
+                    ref="http://syriaca.org/documentation/editors.xml#dmichelson">David A. Michelson</editor>
+                <editor role="creator"
+                    ref="http://syriaca.org/documentation/editors.xml#tcarlson">Thomas A. Carlson</editor>
                 <respStmt>
                     <resp>Data merging, Pleiades and Wikipedia linking, and XML by</resp>
                     <name ref="http://syriaca.org/documentation/editors.xml#tcarlson">Thomas A. Carlson</name>
@@ -35,6 +43,9 @@
                 </availability>
                 <date>2014-01-14-05:00</date>
             </publicationStmt>
+            <seriesStmt>
+                <ab>Test</ab>
+            </seriesStmt>
             <sourceDesc>
                 <p>Born digital.</p>
             </sourceDesc>
@@ -65,8 +76,18 @@
             </langUsage>
         </profileDesc>
         <revisionDesc status="published">
-            <change who=" http://syriaca.org/documentation/editors.xml#wsalesky" when="2014-01-14">ADDED: syriaca-computed-start and syriaca-computed-end attributes for searching</change>
-            <change who=" http://syriaca.org/documentation/editors.xml#tcarlson" when="2013-12-18-05:00">CREATED: place</change>
+         <change when="2016-07-01T10:28:53-04:00"
+                 who="http://data.perseus.org/sosol/users/board_man_freaky_bob">Finalized - I agree is great and now it is final</change>
+         <change when="2016-07-01T10:28:52-04:00"
+                 who="http://data.perseus.org/sosol/users/board_man_freaky_bob">Vote - ok - I vote to agree meta is great</change>
+         <change when="2016-07-01T10:28:49-04:00"
+                 who="http://data.perseus.org/sosol/users/syriacan%20editor">Submit - I made a new pub</change>
+         <change when="2016-07-01T10:28:48-04:00"
+                 who="http://data.perseus.org/sosol/users/syriacan%20editor">create_from_api</change>
+            <change who=" http://syriaca.org/documentation/editors.xml#wsalesky"
+                 when="2014-01-14">ADDED: syriaca-computed-start and syriaca-computed-end attributes for searching</change>
+            <change who=" http://syriaca.org/documentation/editors.xml#tcarlson"
+                 when="2013-12-18-05:00">CREATED: place</change>
         </revisionDesc>
     </teiHeader>
     <text>
